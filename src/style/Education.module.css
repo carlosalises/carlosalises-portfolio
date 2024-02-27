@@ -1,0 +1,16 @@
+.education {
+    
+    margin-top: 20px;
+
+    & header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    & p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+}

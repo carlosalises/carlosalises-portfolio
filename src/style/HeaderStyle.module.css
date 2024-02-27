@@ -1,0 +1,37 @@
+.info {
+
+    & h1 {
+        font-size: 2rem;
+    }
+
+    & h2 {
+        font-size: 1.2rem;
+    }
+
+}
+
+
+footer {
+    color: #555;
+    font-size: 0.65rem;
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+
+    & a {
+        font-size: 12px;
+        text-decoration: none;
+        background: none;
+        color: black;
+        border: 1px solid #eee;
+        padding: 4px;
+        border-radius: 6px;
+        text-transform: uppercase;
+        transition: all .3s ease-in-out;
+    }
+
+    & a:hover{
+        background-color: #f5f5f5;
+    }
+    
+}   
