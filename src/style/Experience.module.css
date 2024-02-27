@@ -20,10 +20,15 @@
         font-size: 1rem;
     }
 
-    & ul > li {
-        list-style: none;
-        text-align: justify;
-        margin-top: 10px;
+    & ul  {
+
+        margin-top: 2rem;
+
+        & li {
+            list-style: none;
+            text-align: justify;
+            margin-top: 10px;
+        }
     }
 
 }
