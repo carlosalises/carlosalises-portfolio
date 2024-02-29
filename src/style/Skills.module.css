@@ -1,14 +1,25 @@
 .skills {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
 
     & li {
-        border: 1px solid #1d1d1d34;
-        border-radius: 5px;
-        padding: 6px;
+        align-items: center;
         background: #eee;
+        border-radius: 6px;
+        color: black;
+        display: flex;
+        font-size: 0.8rem;
+        font-weight: 500;
+        gap: 4px;
+        padding: 0.2rem 0.6rem;
     }
 
+}
+
+@media(width <= 700px){
+    .skills{
+        justify-content: center;
+    }
 }

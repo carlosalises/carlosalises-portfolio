@@ -35,3 +35,21 @@ footer {
     }
     
 }   
+
+@media (width <= 700px) {
+    .info {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            & h2 {
+                margin-top: 1rem;
+            }
+
+            & footer {
+                margin-top: 2rem;
+                display: block;
+            }
+
+    }
+  }

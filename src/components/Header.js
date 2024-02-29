@@ -10,11 +10,11 @@ export default function Header() {
           <h1>CARLOS ALISES MORA</h1>
           <h2>DESARROLLADOR APLICACIONES MULTIPLATAFORMA</h2>
           <span>Barcelona, 08206</span>
+          <footer>
+          <a href="https://www.linkedin.com/in/carlosalisesmora/" target='_blank' rel='noreferrer'>LINKEDIN</a>
+          <a href="https://github.com/carlosalises" target='_blank' rel='noreferrer'>GITHUB</a>
+          </footer>
         </div>
-        <footer>
-         <a href="https://www.linkedin.com/in/carlosalisesmora/" target='_blank' rel='noreferrer'>LINKEDIN</a>
-         <a href="https://github.com/carlosalises" target='_blank' rel='noreferrer'>GITHUB</a>
-        </footer>
       </div>
     </Section>
   )

@@ -33,3 +33,18 @@
 
 }
 
+@media (width <= 700px) {
+    .experience {
+
+        & header {
+            display: block;
+            text-align: center;
+        }
+
+        & ul > li {
+           margin-top: 2rem;
+           text-align: justify;
+        }
+
+    }
+}

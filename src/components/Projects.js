@@ -10,16 +10,16 @@ export default function Projects() {
       <ul className={style.projects}>
         {projects.map(({name, description, information}, index) => {
           return (
-            <li>
-              <article key={index} className={style.project}>
+            <li key={index}>
+              <article className={style.project}>
                 <header>
                   <h3>{name}</h3>
                   <p>{description}</p>
                 </header>
                 <footer>
                   {
-                    information.map((info) => {
-                      return <span>{info}</span>
+                    information.map((info, index) => {
+                      return <span key={index}>{info}</span>
                     })
                   }
                 </footer>

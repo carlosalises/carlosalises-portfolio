@@ -39,3 +39,16 @@
     }
 
 }
+
+@media (width <= 700px) {
+    .projects {
+      margin-inline: 0px;
+      
+        & li {
+            margin-top: 20px;
+        }
+
+    }
+
+  }
+

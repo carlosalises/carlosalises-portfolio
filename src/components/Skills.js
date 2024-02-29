@@ -8,9 +8,9 @@ export default function Skills() {
     <Section title="HABILIDADES">
         <ul className={style.skills}>
             {
-                skills.map((skill)=>{
+                skills.map((skill, index)=>{
                     return (
-                        <li>
+                        <li key={index}>
                             <span>{skill}</span>
                         </li>
                     )
