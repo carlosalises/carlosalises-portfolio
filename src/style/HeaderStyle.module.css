@@ -47,8 +47,9 @@ footer {
             }
 
             & footer {
+                flex-direction: column;
                 margin-top: 2rem;
-                display: block;
+                width: auto;
             }
 
     }

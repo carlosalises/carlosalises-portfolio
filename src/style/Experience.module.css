@@ -37,7 +37,7 @@
     .experience {
 
         & header {
-            display: block;
+            flex-direction: column;
             text-align: center;
         }
 
