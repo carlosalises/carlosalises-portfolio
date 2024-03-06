@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Debug';
-  src: url('./fonts/DEBUG.otf');
+  font-family: 'Bonita';
+  src: url('./fonts/Magazine.ttf');
 }
 
 * {
-  font-family: Lucida Console, monospace;
+  font-family: 'Courier';
   margin: 0;
   padding: 0;
 }

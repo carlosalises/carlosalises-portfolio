@@ -12,15 +12,15 @@ export default function Experience() {
                  <div key={index} className={style.experience}>
                     <header>
                       <div>
-                        <h2>{position}</h2>
-                        <h3>{place}</h3>
+                        <h2 className={style.position}>{position}</h2>
+                        <h3 className={style.place}>{place}</h3>
                       </div>
-                      <time>{date}</time>
+                      <time className={style.date}>{date}</time>
                     </header>
-                    <ul>
+                    <ul className={style.responsabilities}>
                       {responsabilities.map((rsp, index) =>{
                         return (
-                          <li key={index}>{rsp}</li>
+                          <li key={index}>- {rsp}</li>
                         )
                       })}
                     </ul>

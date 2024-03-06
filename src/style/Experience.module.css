@@ -8,26 +8,34 @@
         & time {
             font-weight: bold;
         } 
-
+        
+        & .position {
+            font-size: 1.1rem;
+        }
+    
+        & .place {
+            font-weight: normal;
+            margin-top: 5px;
+            font-size: 1rem;
+        }
     }
 
-    & h2 {
-        font-size: 1.1rem;
-    }
+    & .responsabilities  {
 
-    & h3 {
-        margin-top: 5px;
-        font-size: 1rem;
-    }
-
-    & ul  {
-
+        box-shadow: 0px 0px 7px black;
         margin-top: 2rem;
+        background: #eee;
+        padding: 1rem;
+        border-radius: 5px;
+        border: 1px solid black;
 
         & li {
+            text-transform: uppercase;
             list-style: none;
             text-align: justify;
             margin-top: 10px;
+            font-weight: bold;
+            font-size: 14px;
         }
     }
 
@@ -40,11 +48,9 @@
             flex-direction: column;
             text-align: center;
         }
-
-        & ul > li {
-           margin-top: 2rem;
-           text-align: justify;
+        
+        .date {
+            margin-top: 1rem;
         }
-
     }
 }

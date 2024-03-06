@@ -19,7 +19,7 @@ export default function Projects() {
                 <footer>
                   {
                     information.map((info, index) => {
-                      return <span key={index}>{info}</span>
+                      return <span className={style.tecno} key={index}>{info}</span>
                     })
                   }
                 </footer>
