@@ -9,7 +9,7 @@ export default function Experience() {
           {
             work.map(({place, position, responsabilities, date}, index) => {
               return (
-                 <div key={index} className={style.experience}>
+                 <article key={index} className={style.experience}>
                     <header>
                       <div>
                         <h2 className={style.position}>{position}</h2>
@@ -24,7 +24,7 @@ export default function Experience() {
                         )
                       })}
                     </ul>
-                 </div>
+                 </article>
               )
             })
           }

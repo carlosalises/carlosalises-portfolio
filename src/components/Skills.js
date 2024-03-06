@@ -6,17 +6,19 @@ import style from '../style/Skills.module.css'
 export default function Skills() {
   return (
     <Section title="HABILIDADES">
-        <ul className={style.skills}>
-            {
-                skills.map((skill, index)=>{
-                    return (
-                        <li key={index}>
-                            <span>{skill}</span>
-                        </li>
-                    )
-                })
-            }
-        </ul>
+        <article>
+            <ul className={style.skills}>
+                {
+                    skills.map((skill, index)=>{
+                        return (
+                            <li key={index}>
+                                <span>{skill}</span>
+                            </li>
+                        )
+                    })
+                }
+            </ul>
+        </article>
     </Section>
   )
 }

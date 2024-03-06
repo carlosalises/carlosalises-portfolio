@@ -5,8 +5,7 @@ import Section from './Section'
 export default function Header() {
   return (
     <Section>
-      <div>
-        <div className={styles.info}>
+        <article className={styles.info}>
           <h1 className={styles.myName}>CARLOS ALISES MORA</h1>
           <h2 className={styles.position}>DESARROLLADOR APLICACIONES MULTIPLATAFORMA</h2>
           <span>Barcelona, 08206</span>
@@ -14,8 +13,7 @@ export default function Header() {
             <a href="https://www.linkedin.com/in/carlosalisesmora/" target='_blank' rel='noreferrer'>LINKEDIN</a>
             <a href="https://github.com/carlosalises" target='_blank' rel='noreferrer'>GITHUB</a>
           </footer>
-        </div>
-      </div>
+        </article>
     </Section>
   )
 }
