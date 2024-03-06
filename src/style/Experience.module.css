@@ -21,13 +21,11 @@
     }
 
     & .responsabilities  {
-
-        box-shadow: 0px 0px 7px black;
+        border: 1px solid black;
+        box-shadow: inset 0 0 10px rgb(182, 182, 182);
         margin-top: 2rem;
-        background: #eee;
         padding: 1rem;
         border-radius: 5px;
-        border: 1px solid black;
 
         & li {
             text-transform: uppercase;
@@ -52,5 +50,13 @@
         .date {
             margin-top: 1rem;
         }
+
+        .responsabilities
+        {
+            & li {
+                margin-top: 1.5rem;
+            }
+        }
+
     }
 }
