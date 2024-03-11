@@ -2,9 +2,9 @@
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
     margin-inline: -20px;
     list-style: none;
+    gap: 10px;
 
         & .project {
             box-shadow: inset 0 0 5px rgb(182, 182, 182);
@@ -16,6 +16,7 @@
             height: 100%;
     
             & p {
+                text-wrap: pretty;
                 text-align: justify;
                 margin-top: 10px;
                 font-size: .8rem;
@@ -49,14 +50,8 @@
 
 @media (width <= 700px) {
     .projects {
-        
-      margin-inline: 0px;
-      
-        & li {
-            margin-top: 20px;
-        }
-
+        margin-inline: 0px;
+        gap: 3rem;
     }
-
-  }
+}
 

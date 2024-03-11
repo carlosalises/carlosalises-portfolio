@@ -51,5 +51,5 @@ export const projects = [
 ]
 
 export const skills = [
-    "HTML", "CSS", "JavaScript", "React -> Learning", "Unity", "C#", "Java", "SQL"
+    "HTML", "CSS", "JavaScript", "React", "Unity", "C#", "Java", "SQL"
 ]
