@@ -5,7 +5,7 @@ import style from '../style/Education.module.css'
 
 export default function Education() {
   return (
-    <Section title="EDUCACIÓN">
+    <Section title="FORMACIÓN">
         {
           education.map(({place, area, date}, index)=>{
             return (

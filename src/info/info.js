@@ -48,6 +48,11 @@ export const projects = [
         description : "Web que te despertara recuerdos trasteando con juegos de papel y boli.",
         information : ["HTML & CSS", "JavaScript", "ReactJs"]
     },
+    {
+        name : "WIKI MOUNTAIN",
+        description : 'Web en la que puedes realizar busquedas de montañas y acceder a informacion detallada de cada una de ellas',
+        information : ["HTML & CSS", "JavaScript", "ReactJs"]
+    }
 ]
 
 export const skills = [
