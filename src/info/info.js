@@ -41,17 +41,20 @@ export const projects = [
     {
         name : "DEMON SCAPE",
         description : "Juego de tensión y terror en 3D, en el que tienes que escapar de una casa custodiada por un demonio, completando una serie de puzles.",
-        information : ["Unity & C#", "Terror/Tensión", "Guardado de Partida", "Multiidioma", "Reconocimiento Voz", "Desarrollado en equipo"]
+        information : ["Unity & C#", "Terror/Tensión", "Guardado de Partida", "Multiidioma", "Reconocimiento Voz", "Desarrollado en equipo"],
+        page : ""
     },
     {
         name : "JUEGOS DE SIEMPRE",
-        description : "Web que te despertara recuerdos trasteando con juegos de papel y boli.",
-        information : ["HTML & CSS", "JavaScript", "ReactJs"]
+        description : "Web en la que puedes trastear con diferentes juegos clasicos para entretenerte el tiempo que creas necesario.",
+        information : ["HTML & CSS", "JavaScript", "ReactJs"],
+        page : "https://usual-games.netlify.app"
     },
     {
         name : "WIKI MOUNTAIN",
-        description : 'Web en la que puedes realizar busquedas de montañas y acceder a informacion detallada de cada una de ellas',
-        information : ["HTML & CSS", "JavaScript", "ReactJs"]
+        description : 'Web en la que puedes realizar busquedas de montañas y acceder a informacion detallada de cada una de ellas.',
+        information : ["HTML & CSS", "JavaScript", "ReactJs"],
+        page : ""
     }
 ]
 

@@ -8,13 +8,18 @@ export default function Projects() {
   return (
     <Section title="PROYECTOS">
       <ul className={style.projects}>
-        {projects.map(({name, description, information}, index) => {
+        {projects.map(({name, description, information, page}, index) => {
           return (
             <li key={index}>
               <article className={style.project}>
                 <header>
                   <h3>{name}</h3>
                   <p>{description}</p>
+                  {
+                    page !== '' && (
+                      <a className={style.link} href='https://google.com'>GO TO PAGE</a>
+                    )
+                  }
                 </header>
                 <footer>
                   {
