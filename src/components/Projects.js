@@ -17,7 +17,7 @@ export default function Projects() {
                   <p>{description}</p>
                   {
                     page !== '' && (
-                      <a className={style.link} href='https://google.com'>GO TO PAGE</a>
+                      <a className={style.link} href={page}>GO TO PAGE</a>
                     )
                   }
                 </header>
